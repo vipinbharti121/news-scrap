@@ -14,6 +14,5 @@ def get_topic_wise_news(topic):
         print(get_news({key : links[key]}))
 
 if __name__ == '__main__':
-    given_topic = 'narendra singh modi'
+    given_topic = 'ms dhoni'
     get_topic_wise_news(given_topic)
-    
